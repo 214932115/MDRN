@@ -2,9 +2,9 @@
 ⭐ This code has been completely released ⭐ 
 <p align="center"> <img src="model.jpg" width="80%"> </p>
 
-<summary>PREPARE</summary>
+# <summary>PREPARE</summary>
 
-### 1. Dataset
+## 1. Dataset
 - Download data for our experiment from [baiduyun]() (code: ). And the path of dataset is like that
 
 ```python
@@ -21,13 +21,13 @@ MIAYOLO
 │   │   │   ├── images
 │   │   │   ├── labels
 ```
-### 2. Install
+## 2. Install
 
 ```bash
 pip install ultralytics
 pip install -r requirements.txt
 ```
-<summary>USAGE</summary>
+# <summary>USAGE</summary>
 
 ## Train
 
@@ -46,6 +46,6 @@ yolo val model=MDRN.pt data=CSRB.yaml
 yolo predict model=MDRN.pt source='xxx.jpg'
 ```
 
-## Acknowledgements
+# <summary>Acknowledgements</summary>
 This code is built on [YOLOv8 (PyTorch)](https://github.com/ultralytics/ultralytics). We thank the authors for sharing the codes.
 
